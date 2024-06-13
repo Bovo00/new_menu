@@ -94,3 +94,117 @@ body {
 .menu-item.open .menu-item-content {
     display: block;
 }
+
+/* Rest of the CSS remains unchanged */
+
+.category-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.dish-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dish-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dish-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: #fff;
+}
+
+.dish-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.dish-info {
+    text-align: center;
+}
+
+.dish-info h3 {
+    margin: 0 0 10px;
+}
+
+.dish-info p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .dish-row {
+        flex-direction: column;
+    }
+}
+
+/* Rest of the CSS remains unchanged */
+
+.category-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.dish {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.dish-image {
+    flex: 1 1 150px;
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.dish-info {
+    flex: 3 1 300px;
+}
+
+.dish-info h3 {
+    margin: 0 0 10px;
+}
+
+.dish-info p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .dish {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dish-image {
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    .dish-info {
+        flex: 1 1 auto;
+    }
+}
+
