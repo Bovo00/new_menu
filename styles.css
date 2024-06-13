@@ -23,6 +23,7 @@ body {
 
 .logo {
     font-size: 24px;
+
     font-weight: bold;
 }
 
@@ -205,6 +206,165 @@ body {
 
     .dish-info {
         flex: 1 1 auto;
+    }
+}
+
+/* Rest of the CSS remains unchanged */
+
+.header {
+    background-color: #b90000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+/*.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}*/
+
+.logo {
+    font-size: 35px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+/*.event-logo {
+    width: 300px;
+    height: auto;
+} */
+
+.share-button {
+    background-color: white;
+    color: #b90000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.dish-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dish-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dish-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: #fff;
+}
+
+.dish-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.dish-info {
+    text-align: center;
+}
+
+.dish-info h3 {
+    margin: 0 0 10px;
+}
+
+.dish-info p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .dish-row {
+        flex-direction: column;
+    }
+}
+
+
+
+/* Rest of the CSS remains unchanged */
+
+.footer {
+    background-color: #b90000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #ccc;
+}
+
+.share-button {
+    background-color: white;
+    color: #b90000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.share-button:hover {
+    background-color: #eee;
+}
+
+main {
+    margin-bottom: 20px; /* Spazio extra tra il contenuto centrale e il footer */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
     }
 }
 
